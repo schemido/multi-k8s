@@ -19,6 +19,7 @@ before_install:
     - docker build -t schemido/react-test -f ./client/Dockerfile.dev ./client
 
 script:
+    #neuer_commit
     #- docker run -e CI=true schemido/docker-react npm run test
     - docker run schemido/react-test npm test -- --coverage
 deploy:
