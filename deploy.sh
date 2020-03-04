@@ -11,3 +11,4 @@ kubectl apply -f k8s
 kubectl set image deployments/server-deployment server=schemido/multi-server:$SHA
 kubectl set image deployments/client-deployment client=schemido/multi-client:$SHA
 kubectl set image deployments/worker-deployment worker=schemido/multi-worker:$SHA
+#sfsdf
